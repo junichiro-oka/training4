@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="dummy">
+                <a href="./index.html" class="title_dummy">ダミーサイト</a>
+            </div>
+
+            <button class="hamburger-menu js-hamburger-menu">
+                <span class="hamburger-menu_bar"></span>
+                <span class="hamburger-menu_bar"></span>
+                <span class="hamburger-menu_bar"></span>
+            </button>
+
+            <div class="nav_list">
+                <ul>
+                    <li><a class="nav_list_intro nav_list_item">我が社について</a></li>
+                    <li><a class="nav_list_service nav_list_item">サービス</a></li>
+                    <li><a class="nav_list_contact nav_list_item">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="kv">
+            <p>ダミーサイトへようこそ</p>
+        </div>
+
+        <div class="introduce">
+            <p class="introduce_title list_top" id="intro_top">我が社について</p>
+            <p class="introduce_text">TechEliteは、顧客に自信を持って<span class="marker">「納品」</span>ができるレベルのLPが作れるようになります。</p>
+        </div>
+        
+
+        <div class="service">
+            <p class="list_top" id="service_top">サービス</p>
+            <ul>
+                <li class="service_list" id="web">web制作</li>
+                <li class="service_list" id="seo">SEOコンサル</li>
+                <li class="service_list" id="app">スマホアプリ開発</li>
+            </ul>
+
+            <div id="service_box">
+                <p class="service_text" id="web_text">web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作web制作</p>
+                <p class="service_text" id="seo_text">SEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサルSEOコンサル</p>
+                <p class="service_text" id="app_text">スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発スマホアプリ開発</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p class="list_top" id="contact_top">お問い合わせ</p>
+            <form method="get" action="./thanks.html">
+                <div class="form_item">
+                    <label>お名前<span class="required">*必須</span></label>
+                    <input type="text" name="name" placeholder="例）田中 太郎" required>
+                </div>
+                <div class="form_item">
+                    <label>お住まいの都道府県<span class="required">*必須</span></label><br>
+                    <select id="prefecture" name="prefecture">
+                        <option value="---" selected>---</option>
+                        <option value="hokkaido">北海道</option>
+                        <option value="aomori">青森県</option>
+                        <option value="iwate">岩手県</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label>お住まいの市区町村<span class="required">*必須</span></label>
+                    <select id="city" name="city">
+                        <option value="">---</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label>メールアドレス<span class="required">*必須</span></label>
+                    <input type="text" name="email" placeholder="例）abcd123@example.com" required>
+                </div>
+                <div>
+                    <label class="form_item">電話番号<span class="optional">*任意</span></label>
+                    <input type="text" name="tel" placeholder="例）090123456">
+                </div>
+                <div class="form_item">
+                    <input type="submit" value="送信">
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
