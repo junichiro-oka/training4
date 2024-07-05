@@ -3,6 +3,11 @@ $(function () {
       $('.nav_list').slideToggle(500)
       $('.hamburger-menu').toggleClass('hamburger-menu--open')
     });
+
+    $('.nav_list_item').on('click', function () {
+        $('.nav_list').slideUp(500); // ナビゲーションメニューを閉じる
+        $('.hamburger-menu').removeClass('hamburger-menu--open'); // ハンバーガーメニューのアイコンを閉じた状態にする
+    });
   });
 
 

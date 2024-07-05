@@ -80,9 +80,9 @@
                     <label>メールアドレス<span class="required">*必須</span></label>
                     <input type="text" name="email" placeholder="例）abcd123@example.com" required>
                 </div>
-                <div>
+                <div class="form_item">
                     <label class="form_item">電話番号<span class="optional">*任意</span></label>
-                    <input type="text" name="tel" placeholder="例）090123456">
+                    <input type="text" name="tel" placeholder="例）090123456"  pattern="^\d{2,4}-?\d{2,4}-?\d{3,4}$" title="電話番号の形式で入力してください">
                 </div>
                 <div class="form_item">
                     <input type="submit" value="送信">
