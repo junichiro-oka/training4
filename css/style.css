@@ -95,7 +95,7 @@ ul a:hover {
 
 .marker {
     display:inline-block;
-    background: linear-gradient(transparent 50%, orange 50%);
+    background: linear-gradient(transparent 60%, orange 40%);
     transform: skewX(-15deg);
 }
 
